@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar_link {
+    display: flex;
+    align-items: center;
+    gap: 33px
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+    padding: 15px;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+.navbar p {
+    font-size: 25px;
+    color: rgba(91, 82, 75, 0.9);
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.sidebar {
+    width: 350px;
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+.main {
+    display: flex;
+}
+
+.notizen {
+   width: 250px;
+   height: 150px;
+   border: solid 1px black;
+   border-radius: 10px;
+   margin: 20px;
+   padding: 10px;
+}
+
+.sidebar {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    width: 250px;
+    min-height: 100px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: start;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.message h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: start;
+    padding: 7px;
+    text-decoration: underline;    
+}
+
+.message p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 40px;
+}
+
+.start_site img, .papierkorb img {
+    width: 30px;
+    padding: 5px 10px 10px 20px;
+}
+
+.start_site, .papierkorb {
+    display: flex;
+    margin-top: 5px;  
+    height: 70px;
+}
+
+.start_site a, .papierkorb a {
+    display: flex;
+    margin-top: 5px;
+    gap: 30px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+
+}
+.start_site:hover {
+    background-color: rgb(254,239,195);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.papierkorb:hover {
+    background-color: rgb(241, 243, 244);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.content {
+    padding: 20px;  
+    width: 1200px;
+    text-align: center;
+}
+
+#post_box {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.content input {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: lightgray;
+    padding: 8px 22px 8px 22px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    bottom: 0px;
+}
+.button:hover {
+    background-color: rgb(221, 220, 220);
+}
+
+.delete_button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border: 0;
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 4px 10px 4px 10px;    
+}
+
+.delete_button:hover {
+    background-color: rgb(221, 220, 220);
+}
+
+.trash_message {
+    width: 200px;
+    min-height: 100px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;  
+    word-wrap: break-word;
+}
+
+.trash_message p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.trash_message h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: start;
+    padding: 7px;
+    text-decoration: underline;
+}
+
+.trash {
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 1200px;
+}
+
+.trash_content {
+    width: 1200px;
+}
+
+.delete_all {
+    border: 0;
+    background-color: lightgrey;
+    border-radius: 8px;
+    padding: 14px 70px 14px 70px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.delete_all:hover {
+    background-color: rgb(223, 222, 222);
+}
+
+.button_delete_all {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
